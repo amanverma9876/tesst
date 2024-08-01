@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.quote-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-card p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.quote-card button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.saved-quotes {
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.saved-quotes h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.saved-quotes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.saved-quotes li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
